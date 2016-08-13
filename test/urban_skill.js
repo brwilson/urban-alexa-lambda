@@ -8,6 +8,7 @@ describe('alexa_response', () => {
             var response = buildResponse(
                 'Testing',
                 'The quick brown fox.',
+                'The quick brown fox.',
                 null,
                 true
             )
@@ -26,6 +27,7 @@ describe('alexa_response', () => {
         it('should return a SSML response given a SSML answer', () => {
             var response = buildResponse(
                 'Testing',
+                'Aww <phoneme alphabet=\'ipa\' ph=\'ˈʃɪt\'>sheet</phoneme>!',
                 'Aww <phoneme alphabet=\'ipa\' ph=\'ˈʃɪt\'>sheet</phoneme>!',
                 null,
                 true

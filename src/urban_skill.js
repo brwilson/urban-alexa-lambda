@@ -20,6 +20,7 @@ UrbanDictionarySkill.prototype.onIntent = (request, session, context) => {
             response = buildResponse(
                 `Random Urban Dictionary Word: ${json.word}`,
                 `Your random word is "${json.word}": ${uncensor(json.definition, phonemeMap)}. Example: ${uncensor(json.example, phonemeMap)}`,
+                `Your random word is "${json.word}": ${json.definition}. Example: ${uncensor(json.example, phonemeMap)}`,
                 null,
                 true
             )
@@ -45,6 +46,7 @@ UrbanDictionarySkill.prototype.onIntent = (request, session, context) => {
                 response = buildResponse(
                     `Urban Dictionary: ${json.word}`,
                     `Urban Dictionary defines "${json.word}" as: ${uncensor(json.definition, phonemeMap)}. Example: ${uncensor(json.example, phonemeMap)}`,
+                    `Urban Dictionary defines "${json.word}" as: ${json.definition}. Example: ${uncensor(json.example, phonemeMap)}`,
                     null,
                     true
                 )

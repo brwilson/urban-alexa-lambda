@@ -1,5 +1,5 @@
 
-module.exports = (title, output, repromptText, shouldEnd) => {
+module.exports = (title, output, cardText, repromptText, shouldEnd) => {
     var response = {},
         makeOutputSpeech = (input) => {
             if (input.match(/\<phoneme/) != null) {
