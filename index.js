@@ -1,4 +1,4 @@
-var UrbanDictionarySkill = require('./src/urban_skill.js')
+var UrbanDictionarySkill = require('./src/urban_skill.js');
 
 exports.handler = createHandler(new UrbanDictionarySkill())
 
