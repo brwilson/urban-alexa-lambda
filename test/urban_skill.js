@@ -14,7 +14,7 @@ describe('alexa_response', () => {
 
             assert.equal(
                 response.response.outputSpeech.type,
-                'text'
+                'PlainText'
             )
 
             assert.equal(
@@ -33,7 +33,7 @@ describe('alexa_response', () => {
 
             assert.equal(
                 response.response.outputSpeech.type,
-                'ssml'
+                'SSML'
             )
 
             assert.equal(
