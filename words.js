@@ -13,5 +13,5 @@ module.exports = {
     "cunt": ["ˈkʌnt", "coont"],
     "queef": ["ˈkwif", "kaweef"],
     "pussy": ["ˈpʊsi", "poosy"],
-    "asshole": ["ˈɑssˌole", "assole"]
+    "asshole": ["ˈɑsshol", "asshole"]
 }

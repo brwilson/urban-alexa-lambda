@@ -2,27 +2,32 @@
 module.exports = (title, output, repromptText, shouldEnd) => {
     var response = {},
         makeOutputSpeech = (input) => {
-            if (output.match(/\<phoneme/) != null) {
+            if (input.match(/\<phoneme/) != null) {
                 return {
                     type: 'SSML',
-                    ssml: output
+                    ssml: `<speak>${input}</speak>`
                 }
             } else {
                 return {
                     type: 'PlainText',
-                    text: output
+                    text: input
                 }
             }
         }
 
     response.card = {
         type: 'Simple',
-        title: 'SessionSpeechlet - ' + title,
-        content: 'SessionSpeechlet - ' + output
+        title: title,
+        content: output
     }
 
     response.outputSpeech = makeOutputSpeech(output)
-    response.reprompt = makeOutputSpeech(repromptText)
+
+    if (repromptText != null) {
+        response.reprompt = makeOutputSpeech(repromptText)
+    } else {
+        response.reprompt = null
+    }
 
     response.shouldEndSession = shouldEnd
 

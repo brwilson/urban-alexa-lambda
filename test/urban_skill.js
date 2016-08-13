@@ -38,7 +38,7 @@ describe('alexa_response', () => {
 
             assert.equal(
                 response.response.outputSpeech.ssml,
-                'Aww <phoneme alphabet=\'ipa\' ph=\'ˈʃɪt\'>sheet</phoneme>!'
+                '<speak>Aww <phoneme alphabet=\'ipa\' ph=\'ˈʃɪt\'>sheet</phoneme>!</speak>'
             )
         })
     })
