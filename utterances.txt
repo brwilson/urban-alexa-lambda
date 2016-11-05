@@ -2,31 +2,37 @@ DefineTerm      define {mincer|Term}
 DefineTerm      what is a {mincer|Term}
 DefineTerm      what does {mincer|Term} mean
 DefineTerm      what is the definition of {mincer|Term}
+DefineTerm      what a {mincer|Term} is
 
 DefineTerm      define {shadow dome|Term}
 DefineTerm      what is a {shadow dome|Term}
 DefineTerm      what does {shadow dome|Term} mean
 DefineTerm      what is the definition of {shadow dome|Term}
+DefineTerm      what a {shadow dome|Term} is
 
 DefineTerm      define {the kentucky klondike bar|Term}
 DefineTerm      what is a {the kentucky klondike bar|Term}
 DefineTerm      what does {the kentucky klondike bar|Term} mean
 DefineTerm      what is the definition of {the kentucky klondike bar|Term}
+DefineTerm      what a {kentucky klondike bar|Term} is
 
 DefineTerm      define {the flying camel|Term}
 DefineTerm      what is a {the flying camel|Term}
 DefineTerm      what does {the flying camel|Term} mean
 DefineTerm      what is the definition of {the flying camel|Term}
+DefineTerm      what a {flying camel|Term} is
 
 DefineTerm      define {crotch spiders|Term}
 DefineTerm      what are {crotch spiders|Term}
 DefineTerm      what does {crotch spiders|Term} mean
 DefineTerm      what is the definition of {crotch spiders|Term}
+DefineTerm      what a {crotch spider|Term} is
 
 DefineTerm      define {butt toe|Term}
 DefineTerm      what is a {butt toe|Term}
 DefineTerm      what does {butt toe|Term} mean
 DefineTerm      what is the definition of {butt toe|Term}
+DefineTerm      what a {butt toe|Term} is
 
 GetRandomTerm   for a word
 GetRandomTerm   for a random word
