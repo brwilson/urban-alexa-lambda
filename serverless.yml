@@ -1,0 +1,13 @@
+service: urbanAlexa
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  urbanAlexa:
+    handler: handler.urbanAlexa
+    memorySize: 128
+    events:
+      - alexaSkillsKit
+
