@@ -8,6 +8,7 @@ module.exports = {
     "shitbag": ["ˈʃɪtˌbæg", "sheetbag"],
     "cock": ["ˈkɒk", "cawk"],
     "nutsack": ["ˈnʌtˌsæk", "newtsaque"],
+    "tits": ["ˈtɪts", "teets"],
     "twat": ["ˈtwɔt", "twought"],
     "bitch": ["ˈbɪt͡ʃ", "bish"],
     "cunt": ["ˈkʌnt", "coont"],
